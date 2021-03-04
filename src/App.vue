@@ -10,8 +10,8 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "./components/HelloWorld.vue";
-import HueButton from "@/components/HueButton.vue";
-import HueMessage from "@/components/HueMessage.vue";
+import HueButton from "@/components/HueButton/HueButton.vue";
+import HueMessage from "@/components/HueMessage/HueMessage.vue";
 
 @Component({
   components: {

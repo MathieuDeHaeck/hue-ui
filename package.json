@@ -1,7 +1,7 @@
 {
-  "name": "@hue/ui",
+  "name": "hue-ui",
   "version": "1.0.0",
-  "main": "./dist/hue-ui.common.js",
+  "main": "dist/hue-ui.common.js",
   "files": [
     "dist/*",
     "src/*",
@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name hue-ui ./src/components/index.js",
+    "build": "vue-cli-service build --target lib --name hue-ui src/main.ts",
+    "prepublishOnly": "$npm_execpath build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
