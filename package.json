@@ -2,7 +2,7 @@
   "name": "hue-ui",
   "version": "1.0.7",
   "main": "dist/hue-ui.common.js",
-  "types": "src/main.ts",
+  "types": "src/index.ts",
   "files": [
     "dist/*",
     "src/*",
@@ -11,8 +11,7 @@
     "*.js"
   ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name hue-ui src/main.ts",
+    "build": "vue-cli-service build --target lib --name hue-ui src/index.ts",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
