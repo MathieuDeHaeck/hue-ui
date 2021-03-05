@@ -19,5 +19,10 @@
 // export * from "./HueButton";
 // export * from './HueMessage'
 
-export { default as HueButton } from "./HueButton";
-export { default as HueMessage } from "./HueMessage";
+// export { default as HueButton } from "./HueButton";
+// export { default as HueMessage } from "./HueMessage";
+
+import HueButton from "./HueButton/HueButton.vue";
+import HueMessage from "./HueMessage/HueMessage.vue";
+
+export { HueButton, HueMessage };
