@@ -27,3 +27,7 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Resources
+* https://www.freecodecamp.org/news/how-to-create-and-publish-a-vue-component-library/
+* 

@@ -13,6 +13,8 @@ export default class HueMessage extends Vue {
 }
 </script>
 
+<!-- No styling in this component !!! -->
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <!--<style scoped lang="scss">-->
 <!--@import "HueMessage";-->
