@@ -13,5 +13,11 @@
 //
 // export default Components;
 
+// export { default as HueButton } from "./HueButton";
+// export { default as HueMessage } from "./HueMessage";
+
+// export * from "./HueButton";
+// export * from './HueMessage'
+
 export { default as HueButton } from "./HueButton";
 export { default as HueMessage } from "./HueMessage";

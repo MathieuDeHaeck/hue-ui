@@ -1,0 +1,6 @@
+.button {
+    //background: red;
+    background: var(--button-background, var(--c-primary));
+    //color: white;
+    color: var(--button-color, var(--c-white));
+}
